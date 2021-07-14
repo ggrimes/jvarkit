@@ -317,7 +317,7 @@ public class Biostar59647 extends Launcher
 									 			baseRead=(char)(rec.getReadBases()[readIndex]);
 									 			w.writeAttribute("read-index",String.valueOf(readIndex+1));
 									 			w.writeAttribute("read-base",String.valueOf(baseRead));
-												w.writeAttribute("read-name",rec.getReadName())
+												w.writeAttribute("read-name",rec.getReadName());
 								 				}
 								 			w.writeAttribute("ref-index",String.valueOf(refIndex));
 								 			if(refIndex>=1 && refIndex<= genomicSequence.length())
